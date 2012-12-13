@@ -11,6 +11,9 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
+Bundle 'CSApprox'
+Bundle 'ack'
+Bundle 'vim-indent-guides'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mileszs/ack.vim'
