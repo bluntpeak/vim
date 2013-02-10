@@ -12,8 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'CSApprox'
-Bundle 'ack'
-Bundle 'vim-indent-guides'
+Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mileszs/ack.vim'
@@ -28,6 +27,7 @@ Bundle 'leshill/vim-json'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'godlygeek/tabular'
 
 " vim-scripts repos
 Bundle 'L9'
@@ -41,6 +41,7 @@ Bundle 'sudo.vim'
 filetype plugin indent on     " required!
 syntax on
 
+set backupcopy=yes
 
 "turn off needless toolbar on gvim/mvim
 "set guioptions-=T
@@ -226,4 +227,5 @@ set wildmode=full
 set tabstop=8
 set shiftwidth=4
 set softtabstop=4
+set tabstop=4
 set expandtab
